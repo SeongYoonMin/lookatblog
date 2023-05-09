@@ -3,20 +3,21 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --port 15400",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "@types/node": "^18",
-    "nuxt": "^3.4.3"
+    "nuxt": "^3.3.0"
   },
   "dependencies": {
+    "@types/swiper": "^6.0.0",
     "node-sass": "^8.0.0",
     "nuxt-swiper": "^1.1.0",
     "sass": "^1.62.1",
     "sass-loader": "^13.2.2",
-    "swiper": "^9.2.4"
+    "swiper": "^9.3.0"
   }
 }

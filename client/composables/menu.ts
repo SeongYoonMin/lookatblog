@@ -5,8 +5,8 @@ export const setMenus = () => {
       path: '/resume',
     },
     {
-      name: 'BOARD',
-      path: '/board',
+      name: 'HISTORY',
+      path: '/history',
     },
     {
       name: 'CONTACT',
